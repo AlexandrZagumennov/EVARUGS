@@ -1,0 +1,31 @@
+.card {
+	background: #FFFFFF;
+	border-radius: 0.9rem;
+}
+
+.card__img {
+	display: block;
+	object-fit: contain;
+	border-top-left-radius:  inherit;
+	border-top-right-radius: inherit;	
+}
+
+.card__content {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 2.2rem;
+	padding-right: 3.3rem;
+}
+
+.card__title {
+	font-weight: 700;
+	font-size: 3.6rem;
+	line-height: 117%;
+	margin-bottom: 3rem;
+}
+
+.card__text {
+	font-size: 1.4rem;
+	line-height: 114%;
+	color: #767676;
+}

@@ -1,0 +1,44 @@
+.footer {
+	padding: 17.2rem 0 8.4rem;
+}
+
+/*.footer__container {
+	background-image: url(../../img/footer/figure-small.png), url(../../img/footer/figure-big.png);
+	background-repeat: no-repeat;
+	background-position: left 8.2rem, right 1.9rem;
+	background-size: auto auto;
+}*/
+
+.footer__wrapper{
+	max-width: 95.4rem;
+	margin: 0 auto;
+}
+
+.footer__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__item {
+	width: 22.4rem;
+}
+
+.footer__item-title {
+	margin-bottom: 1rem;
+}
+
+.footer__contacts-list {
+
+}
+
+.footer__contacts-item {
+
+}
+
+.footer__phone {
+	line-height: 0.9rem;
+}
+
+.footer__text:not(:last-child) {
+	margin-bottom: 2.4rem;
+}

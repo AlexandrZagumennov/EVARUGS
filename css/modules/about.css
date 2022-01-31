@@ -1,0 +1,28 @@
+.about {
+	padding: 2.5rem 0 22.5rem;
+}
+
+.about__title {
+	font-weight: 400;
+	font-size: 5rem;
+	line-height: 118%;
+	text-align: center;
+	margin-bottom: 10rem;
+}
+
+.about__title span {
+	background: linear-gradient(90deg, rgba(185, 1, 96, 1) 0%, rgba(61, 91, 245, 1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.about__list {
+	display: grid;
+	grid-template-columns: repeat(3, 29%);
+	gap:6.1rem
+}
+
+.about__item {
+	max-width: 344px;
+	min-height: 414px;
+}

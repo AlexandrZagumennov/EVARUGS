@@ -9,11 +9,17 @@ html {
 	box-sizing: inherit;
 }
 
+/* Для вёрстки в rem*/
+html, body {
+	font-size: 62.5%
+}
+
+
 body {
-	min-width: 320px;
+	min-width: 3.2rem;
 	min-height: 100vh;
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 300;
 	background-color: #E5E5E5;
 	color: #000;
@@ -70,8 +76,8 @@ iframe {
 }
 
 .container {
-	max-width: 1256px;
+	max-width: 120rem;
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 0 3rem;
 }
 

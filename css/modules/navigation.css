@@ -1,0 +1,20 @@
+.navigation {
+
+}
+
+.navigation__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.navigation__item {
+
+}
+
+.navigation__link {
+	font-size: 1.8rem;
+	line-height: 116%;
+	color: #737373;
+}
