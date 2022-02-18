@@ -5,6 +5,7 @@
 	align-items: center;
 	gap: 48px;
 }
+
 .navigation__item {
 	font-weight: 300;
 	font-size: 18px;
@@ -26,12 +27,14 @@
 	left: 0;
 }
 
-.navigation__item:hover::after {
-	display: block;
+.navigation__link:hover  {
+	/*display: block;
+	*/
+	color:red;
 }
 
 @media (max-width: 1000px) {
-	.navigation {
+	/*.navigation {
 		display: none;
-	}
+	}*/
 }
