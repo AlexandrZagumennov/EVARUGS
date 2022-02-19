@@ -10,10 +10,8 @@
 @import url(./modules/hero.css);
 @import url(./modules/navigation.css);
 @import url(./modules/burger.css);
-
-/*@import url(./modules/footer.css);*/
-
 @import url(./modules/about.css);
 @import url(./modules/card.css);
-/*@import url(./modules/feedback.css);*/
+@import url(./modules/feedback.css);
+@import url(./modules/footer.css);
 
