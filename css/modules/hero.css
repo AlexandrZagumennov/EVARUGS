@@ -78,7 +78,7 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
-	top: 65px;
+	top: 80px;
 	right: 38px;
 }
 
@@ -159,6 +159,7 @@
 	}
 
 	.hero__title {
+		display: block;
 		font-size: 18px;
 		line-height: 21px;
 	}

@@ -31,7 +31,7 @@
 	width: 757px;
 	height: 581px;
 	background-image: url(../../img/about/base-sheet.png);
-	background-position: center;
+	/*background-position: center;*/
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -62,10 +62,6 @@
 	}
 
 	.about::after {
-		width: 232px;
-		height: 290px;
-		background-size: cover;
-		position: absolute;
 		top: 299px;
 		left: -44px;
 	}
@@ -88,6 +84,10 @@
 
 	.about__list {
 		gap: 30px;
+	}
+
+	.about::after {
+		display: none;
 	}
 }
 

@@ -11,9 +11,8 @@
 	font-size: 18px;
 	line-height: 21px;
 	color: #737373;
-	cursor: pointer;
 	position: relative;
-	transition: all .3s ease;
+	cursor: pointer;
 }
 
 .navigation__item::after {
@@ -27,14 +26,12 @@
 	left: 0;
 }
 
-.navigation__link:hover  {
-	/*display: block;
-	*/
-	color:red;
+.navigation__item:hover::after  {
+	display: block;
 }
 
 @media (max-width: 1000px) {
-	/*.navigation {
+	.navigation {
 		display: none;
-	}*/
+	}
 }
